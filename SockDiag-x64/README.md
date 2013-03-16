@@ -13,4 +13,6 @@ Ubuntu 12.10 x86_64 kernel 3.7.0-7-generic
 
 Kalo mau ditambahin yo monggo silahken ditambahin, buat yang x86 saya ndak punya mesinnya, mesin x86 saya matek :)) paling ganti trampolinenya sama creds nya aja udah, trampolinenya ngambil dari push cred ajah, yaaaa standar null pointer dereference lah.
 
+Kalo di Ubuntu 12.04.2 gak bisa di kompail (sock_diag.h nya gak ada gitu errornya) ente kompail di 12.10 aja soalnya buat yang 12.04.2 emang masih belom official di taruh. Cek nya di /usr/include/linux
+
 Plis ya bok jangan di cengin :(
