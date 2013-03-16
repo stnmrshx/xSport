@@ -7,9 +7,9 @@ Bug di Sock_diag_handler
 
 POCnya ini cuma buat : 
 
-Ubuntu 12.04.2 x86_64 kernel 3.5.0-23-generic
-Ubuntu 12.10 x86_64 kernel 3.5.0-17-generic
-Ubuntu 12.10 x86_64 kernel 3.7.0-7-generic
+Ubuntu 12.04.2 x86_64 kernel 3.5.0-23-generic<br />
+Ubuntu 12.10 x86_64 kernel 3.5.0-17-generic<br />
+Ubuntu 12.10 x86_64 kernel 3.7.0-7-generic<br />
 
 Kalo mau ditambahin yo monggo silahken ditambahin, buat yang x86 saya ndak punya mesinnya, mesin x86 saya matek :)) paling ganti trampolinenya sama creds nya aja udah, trampolinenya ngambil dari push cred ajah, yaaaa standar null pointer dereference lah.
 
